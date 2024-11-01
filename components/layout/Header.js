@@ -6,11 +6,13 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <header>
-      <nav>
-        <ul>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><Link class="nav-link" href="/">Home</Link></li>
+            <li class="nav-item"><Link class="nav-link" href="/about">About</Link></li>
+          </ul>
+        </div>
       </nav>
     </header>
   );

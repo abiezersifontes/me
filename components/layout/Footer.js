@@ -5,7 +5,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <p>© {new Date().getFullYear()} My Website. All rights reserved.</p>
+      <p>© {new Date().getFullYear()} Abiezer Sifontes. All rights reserved.</p>
     </footer>
   );
 };
